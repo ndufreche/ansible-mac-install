@@ -79,6 +79,8 @@ homebrew_cask_apps:
   - font-inconsolata-nerd-font
   - font-sourcecodepro-nerd-font
   - font-hack-nerd-font
+  - sketch
+  - insomnia
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_signin_dialog: yes
