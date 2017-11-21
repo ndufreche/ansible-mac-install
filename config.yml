@@ -69,8 +69,6 @@ homebrew_cask_apps:
   - google-chrome
   - firefoxdeveloperedition
   - sequel-pro
-  - google-cloud-sdk
-  - google-backup-and-sync
   - iterm2
   - virtualbox
   - docker
@@ -81,6 +79,7 @@ homebrew_cask_apps:
   - font-hack-nerd-font
   - sketch
   - insomnia
+  - discord
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_signin_dialog: yes
