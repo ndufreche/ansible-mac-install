@@ -24,19 +24,13 @@ homebrew_installed_packages:
   - automake
   - bash-completion
   - chromedriver
-  - doxygen
   - gettext
-  - gifsicle
   - git
-  - go
   - gpg
-  - hub
-  - httpie
   - iperf
   - libevent
   - sqlite
   - mcrypt
-  - nmap
   - node
   - yarn
   - nvm
@@ -52,56 +46,35 @@ homebrew_installed_packages:
   - docker-machine-driver-xhyve
   - docker-machine-nfs
   - docker-machine
-  - heroku
-  - htop
-  - kubernetes-cli
-  - kubernetes-helm
-  - mas
   - ncdu
   - nmap
-  - packer
   - scw
-  - terraform
   - terminal-notifier
   - wget
   - xhyve
   - zsh
-  - zsh-completions
   - tree
   - dockutil
   - watch
-  - zplug
 
 
 homebrew_taps:
   - homebrew/core
   - caskroom/cask
-  - homebrew/php
   - caskroom/fonts
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - visual-studio-code
   - google-chrome
+  - firefoxdeveloperedition
   - sequel-pro
   - google-cloud-sdk
   - google-backup-and-sync
-  - atom
-  - alfred
   - iterm2
-  - spotify
-  - vagrant
   - virtualbox
-  - dash
-  - cleanmymac
-  - etcher
-  - yakyak
-  - tunnelblick
-  - gitkraken
-  - intellij-idea
   - docker
-  - vlc
   - istat-menus
-  - postman
   - font-meslo-nerd-font
   - font-inconsolata-nerd-font
   - font-sourcecodepro-nerd-font
@@ -110,15 +83,11 @@ homebrew_cask_apps:
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_signin_dialog: yes
 mas_installed_apps:
-  - { id: 946399090, name: "Telegram Desktop" }
+  - { id: 497799835, name: "Xcode" }
   - { id: 409183694, name: "Keynote" }
-  - { id: 918858936, name: "Airmail 3" }
   - { id: 409203825, name: "Numbers" }
   - { id: 409201541, name: "Pages" }
-  - { id: 557168941, name: "Tweetbot for Twitter" }
-  - { id: 715768417, name: "Microsoft Remote Desktop" }
   - { id: 803453959, name: "Slack" }
-  - { id: 784801555, name: "Microsoft OneNote" }
 
 mas_upgrade_all_apps: yes
 
@@ -146,50 +115,3 @@ dockitems_disabled:
   - Numbers
   - Keynote
   - Préférences Système
-
-dockitems_enabled:
-  - name: Airmail 3
-    path: "/Applications/Airmail 3.app"
-    pos: 1
-  - name: iTerm
-    path: "/Applications/iTerm.app"
-    pos: 2
-  - name: Google Chrome
-    path: "/Applications/Google Chrome.app"
-    pos: 3
-  - name: Pages
-    path: "/Applications/Pages.app"
-    pos: 4
-  - name: Numbers
-    path: "/Applications/Numbers.app"
-    pos: 5
-  - name: Keynote
-    path: "/Applications/Keynote.app"
-    pos: 6
-  - name: Tweetbot
-    path: "/Applications/Tweetbot.app"
-    pos: 7
-  - name: Telegram Desktop
-    path: "/Applications/Telegram Desktop.app"
-    pos: 8
-  - name: YakYak
-    path: "/Applications/YakYak.app"
-    pos: 9
-  - name: Slack
-    path: "/Applications/Slack.app"
-    pos: 10
-  - name: Spotify
-    path: "/Applications/Spotify.app"
-    pos: 11
-  - name: Intellij Idea
-    path: "/Applications/IntelliJ IDEA.app"
-    pos: 12
-  - name: GitKraken
-    path: "/Applications/GitKraken.app"
-    pos: 13
-  - name: Dash
-    path: "/Applications/Dash.app"
-    pos: 14
-  - name: Préférences Système
-    path: "/Applications/System Preferences.app"
-    pos: 15
